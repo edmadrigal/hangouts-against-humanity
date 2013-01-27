@@ -34,7 +34,7 @@
         <!-- CAH -->
         <link rel="stylesheet" href="//tabletopforge.com/CAH/css/CAH.css">
         <script src="//tabletopforge.com/CAH/CAH.hangout.js"></script>
-        <script src="//tabletopforge.com/CAH/data/cards.js"></script>
+        <script src="https://raw.github.com/edmadrigal/hangouts-against-humanity/master/source/data/cards.js"></script>
         <script src="//tabletopforge.com/CAH/CAH.dataStores.js"></script>
         <script src="//tabletopforge.com/CAH/CAH.game.js"></script>
         <script src="//tabletopforge.com/CAH/CAH.layout.js"></script>
