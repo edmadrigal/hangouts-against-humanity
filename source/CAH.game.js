@@ -42,8 +42,9 @@ function startGame() {
                         { boxLabel: 'First Expansion', name: 'sets', checked: true, inputValue: 'CAHe1'},
                         { boxLabel: 'Second Expansion', name: 'sets', checked: true, inputValue: 'CAHe2' },
                         { boxLabel: 'Christmas Set', name: 'sets', checked: false, inputValue: 'CAHxmas' },
-                        { boxLabel: 'Hangover Against Humanity', name: 'sets', checked: false, inputValue: 'CAHhangover' },
-                        { boxLabel: 'Weeaboo (fan Anime set)', name: 'sets', checked: false, inputValue: 'CAHweeaboo' }
+                        { boxLabel: 'Grognards (fan RPG set)', name: 'sets', checked: false, inputValue: 'CAHgrognards' },
+                        { boxLabel: 'Weeaboo (fan Anime set)', name: 'sets', checked: false, inputValue: 'CAHweeaboo' },
+                        { boxLabel: 'Hangover Against Humanity', name: 'sets', checked: false, inputValue: 'CAHhangover'} },
 
                     ]
                 },
