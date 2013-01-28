@@ -167,6 +167,10 @@ function doReaderTurn() {
             if (numSubmissions == numPlayers-1 || numLoops > 120) {
                 clearInterval(sLoop);
                 Ext.getCmp('gameStatePanel').setTitle("Game State");
+
+                // Suffle before revealing
+                shuffleAnswers(); 
+
                 revealCards();
             }
         }
@@ -490,6 +494,8 @@ function submitAnswers(eventData) {
     }
 }
 
+
+
 function revealCards() {
     //instructions to reader
     gapi.hangout.layout.displayNotice("Click a card to reveal it as you read it.");
@@ -663,4 +669,12 @@ function resetGame() {
 
     //try and catch new/left players
     updateParticipantsList();
+}
+
+function shuffleAnswers()
+{
+    $(.'answerContainer').sort(function () 
+    {
+        return 0.5 - Math.random()
+    }; //Unsure how to make this nested anonymous fn match your bracket style
 }
