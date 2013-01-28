@@ -167,9 +167,6 @@ function doReaderTurn() {
                 clearInterval(sLoop);
                 Ext.getCmp('gameStatePanel').setTitle("Game State");
 
-                // Suffle before revealing
-                shuffleAnswers(); 
-
                 revealCards();
             }
         }
@@ -668,12 +665,4 @@ function resetGame() {
 
     //try and catch new/left players
     updateParticipantsList();
-}
-
-function shuffleAnswers()
-{
-    $(.'answerContainer').sort(function () 
-    {
-        return 0.5 - Math.random()
-    }; //Unsure how to make this nested anonymous fn match your bracket style
 }
