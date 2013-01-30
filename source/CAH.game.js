@@ -38,7 +38,7 @@ function startGame() {
                     columnWidth:  240,
                     vertical: false,
                     items: [
-                        { boxLabel: 'Base', name: 'sets', inputValue: 'Base', checked: true, readOnly:true },
+                        { boxLabel: 'Base', name: 'sets', checked: true, inputValue: 'Base' },
                         { boxLabel: 'First Expansion', name: 'sets', checked: true, inputValue: 'CAHe1'},
                         { boxLabel: 'Second Expansion', name: 'sets', checked: true, inputValue: 'CAHe2' },
                         { boxLabel: 'Christmas Set', name: 'sets', checked: false, inputValue: 'CAHxmas' },
