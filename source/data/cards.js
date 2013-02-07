@@ -1064,7 +1064,7 @@ masterCards = [{"id":1,"cardType":"A","text":"Flying sex snakes.","numAnswers":0
 {"id":1064,"cardType":"A","text":"Barak Obama firing drone missiles on childeren in the Pakistan","numAnswers":0,"expansion": "CAHhangover"},
 {"id":1065,"cardType":"A","text":"A rousing game of who's in my mouth","numAnswers":0,"expansion": "CAHhangover"},
 {"id":1066,"cardType":"A","text":"Monica Lewinski trying porn in 2028","numAnswers":0,"expansion": "CAHhangover"},
-{"id":1067,"cardType":"A","text":"Striking a police vehicle while singing "I'll Make Love to You" by Boyz 2 Men","numAnswers":0,"expansion": "CAHhangover"},
+{"id":1067,"cardType":"A","text":"Striking a police vehicle while singing \"I'll Make Love to You\" by Boyz 2 Men","numAnswers":0,"expansion": "CAHhangover"},
 {"id":1068,"cardType":"A","text":"Socially constructed norms that cause me to hate myself","numAnswers":0,"expansion": "CAHhangover"},
 {"id":1069,"cardType":"A","text":"Being in a healthy relationship","numAnswers":0,"expansion": "CAHhangover"},
 {"id":1070,"cardType":"A","text":"Captain Janeway","numAnswers":0,"expansion": "CAHhangover"},
